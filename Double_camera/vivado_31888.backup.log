@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Aug 21 15:34:06 2019
+# Process ID: 31888
+# Current directory: C:/Users/84646/Desktop/Pmode/Double_camera
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25056 C:\Users\84646\Desktop\Pmode\Double_camera\Pmod_30M.xpr
+# Log file: C:/Users/84646/Desktop/Pmode/Double_camera/vivado.log
+# Journal file: C:/Users/84646/Desktop/Pmode/Double_camera\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/84646/Desktop/Pmode/Double_camera/Pmod_30M.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/84646/Desktop/Pmode/pmod_3/Pmod_30M_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 891.020 ; gain = 138.750
+update_compile_order -fileset sources_1
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 169 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.379 . Memory (MB): peak = 1748.906 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.380 . Memory (MB): peak = 1748.906 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+open_run: Time (s): cpu = 00:00:32 ; elapsed = 00:00:29 . Memory (MB): peak = 1863.262 ; gain = 949.664
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 22 12:17:20 2019...

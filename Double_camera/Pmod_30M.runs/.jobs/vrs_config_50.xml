@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="frame_buffer_synth_1" LaunchDir="C:/Users/84646/Desktop/Pmode/pmod_3/Pmod_30M_1/Pmod_30M.runs/frame_buffer_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="PLL_108_synth_1" LaunchDir="C:/Users/84646/Desktop/Pmode/pmod_3/Pmod_30M_1/Pmod_30M.runs/PLL_108_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/84646/Desktop/Pmode/pmod_3/Pmod_30M_1/Pmod_30M.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="frame_buffer_synth_1"/>
+		<Parent Id="PLL_108_synth_1"/>
+	</Run>
+</Runs>
+

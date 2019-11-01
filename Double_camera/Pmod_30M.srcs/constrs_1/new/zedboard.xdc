@@ -1,0 +1,57 @@
+set_property -dict {PACKAGE_PIN Y19 IOSTANDARD LVCMOS33} [get_ports VGA_VS]
+set_property -dict {PACKAGE_PIN AA19 IOSTANDARD LVCMOS33} [get_ports VGA_HS]
+
+set_property -dict {PACKAGE_PIN AB19 IOSTANDARD LVCMOS33} [get_ports {VGA_Blue[3]}]
+set_property -dict {PACKAGE_PIN AB20 IOSTANDARD LVCMOS33} [get_ports {VGA_Blue[2]}]
+set_property -dict {PACKAGE_PIN Y20 IOSTANDARD LVCMOS33} [get_ports {VGA_Blue[1]}]
+set_property -dict {PACKAGE_PIN Y21 IOSTANDARD LVCMOS33} [get_ports {VGA_Blue[0]}]
+set_property -dict {PACKAGE_PIN AA21 IOSTANDARD LVCMOS33} [get_ports {VGA_Green[3]}]
+set_property -dict {PACKAGE_PIN AB21 IOSTANDARD LVCMOS33} [get_ports {VGA_Green[2]}]
+set_property -dict {PACKAGE_PIN AA22 IOSTANDARD LVCMOS33} [get_ports {VGA_Green[1]}]
+set_property -dict {PACKAGE_PIN AB22 IOSTANDARD LVCMOS33} [get_ports {VGA_Green[0]}]
+set_property -dict {PACKAGE_PIN V18 IOSTANDARD LVCMOS33} [get_ports {VGA_Red[3]}]
+set_property -dict {PACKAGE_PIN V19 IOSTANDARD LVCMOS33} [get_ports {VGA_Red[2]}]
+set_property -dict {PACKAGE_PIN U20 IOSTANDARD LVCMOS33} [get_ports {VGA_Red[1]}]
+set_property -dict {PACKAGE_PIN V20 IOSTANDARD LVCMOS33} [get_ports {VGA_Red[0]}]
+
+set_property -dict {PACKAGE_PIN R18 IOSTANDARD LVCMOS33} [get_ports KEY]
+set_property -dict {PACKAGE_PIN Y9 IOSTANDARD LVCMOS33} [get_ports CLOCK_100]
+set_property -dict {PACKAGE_PIN T22 IOSTANDARD LVCMOS33} [get_ports VGA_CTRL_CLK]
+
+set_property -dict {PACKAGE_PIN AB10 IOSTANDARD LVCMOS33} [get_ports {OV7670_D_2[0]}]
+set_property -dict {PACKAGE_PIN AA11 IOSTANDARD LVCMOS33} [get_ports {OV7670_D_2[1]}]
+set_property -dict {PACKAGE_PIN AB9 IOSTANDARD LVCMOS33} [get_ports {OV7670_D_2[2]}]
+set_property -dict {PACKAGE_PIN Y10 IOSTANDARD LVCMOS33} [get_ports {OV7670_D_2[3]}]
+set_property -dict {PACKAGE_PIN AA8 IOSTANDARD LVCMOS33} [get_ports {OV7670_D_2[4]}]
+set_property -dict {PACKAGE_PIN AA9 IOSTANDARD LVCMOS33} [get_ports {OV7670_D_2[5]}]
+set_property -dict {PACKAGE_PIN V12 IOSTANDARD LVCMOS33} [get_ports {OV7670_D_2[6]}]
+set_property -dict {PACKAGE_PIN W12 IOSTANDARD LVCMOS33} [get_ports {OV7670_D_2[7]}]
+
+set_property -dict {PACKAGE_PIN V9 IOSTANDARD LVCMOS33} [get_ports OV7670_HREF_2]
+set_property -dict {PACKAGE_PIN V10 IOSTANDARD LVCMOS33} [get_ports OV7670_VSYNC_2]
+set_property -dict {PACKAGE_PIN W11 IOSTANDARD LVCMOS33} [get_ports OV7670_PCLK_2]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets OV7670_PCLK_2_IBUF]
+
+set_property -dict {PACKAGE_PIN W8 IOSTANDARD LVCMOS33} [get_ports OV7670_SIOC_2]
+set_property -dict {PACKAGE_PIN V8 IOSTANDARD LVCMOS33} [get_ports OV7670_SIOD_2]
+set_property -dict {PACKAGE_PIN W10 IOSTANDARD LVCMOS33} [get_ports OV7670_XCLK_2]
+
+
+set_property -dict {PACKAGE_PIN T6 IOSTANDARD LVCMOS33} [get_ports {OV7670_D[0]}]
+set_property -dict {PACKAGE_PIN AB6 IOSTANDARD LVCMOS33} [get_ports {OV7670_D[1]}]
+set_property -dict {PACKAGE_PIN T4 IOSTANDARD LVCMOS33} [get_ports {OV7670_D[2]}]
+set_property -dict {PACKAGE_PIN Y4 IOSTANDARD LVCMOS33} [get_ports {OV7670_D[3]}]
+set_property -dict {PACKAGE_PIN U4 IOSTANDARD LVCMOS33} [get_ports {OV7670_D[4]}]
+set_property -dict {PACKAGE_PIN AA4 IOSTANDARD LVCMOS33} [get_ports {OV7670_D[5]}]
+set_property -dict {PACKAGE_PIN W6 IOSTANDARD LVCMOS33} [get_ports {OV7670_D[6]}]
+set_property -dict {PACKAGE_PIN V7 IOSTANDARD LVCMOS33} [get_ports {OV7670_D[7]}]
+
+set_property -dict {PACKAGE_PIN U6 IOSTANDARD LVCMOS33} [get_ports OV7670_HREF]
+set_property -dict {PACKAGE_PIN V5 IOSTANDARD LVCMOS33} [get_ports OV7670_VSYNC]
+set_property -dict {PACKAGE_PIN W7 IOSTANDARD LVCMOS33} [get_ports OV7670_PCLK]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets OV7670_PCLK_IBUF]
+
+set_property -dict {PACKAGE_PIN V4 IOSTANDARD LVCMOS33} [get_ports OV7670_SIOC]
+set_property -dict {PACKAGE_PIN U5 IOSTANDARD LVCMOS33} [get_ports OV7670_SIOD]
+set_property -dict {PACKAGE_PIN W5 IOSTANDARD LVCMOS33} [get_ports OV7670_XCLK]
+

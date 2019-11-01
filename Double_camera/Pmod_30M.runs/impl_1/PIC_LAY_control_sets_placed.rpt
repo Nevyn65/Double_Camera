@@ -1,0 +1,95 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+| Date         : Fri Nov  1 14:21:35 2019
+| Host         : DESKTOP-89AAFLI running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file PIC_LAY_control_sets_placed.rpt
+| Design       : PIC_LAY
+| Device       : xc7z020
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    25 |
+| Unused register locations in slices containing registers |    85 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            3 |
+|      4 |            2 |
+|      6 |            4 |
+|     10 |            1 |
+|     13 |            2 |
+|     15 |            2 |
+|    16+ |           11 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              37 |           22 |
+| No           | No                    | Yes                    |              46 |           21 |
+| No           | Yes                   | No                     |              64 |           19 |
+| Yes          | No                    | No                     |              72 |           34 |
+| Yes          | No                    | Yes                    |              52 |           23 |
+| Yes          | Yes                   | No                     |              68 |           20 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------+-----------------------------------+----------------------------------+------------------+----------------+
+|       Clock Signal       |           Enable Signal           |         Set/Reset Signal         | Slice Load Count | Bel Load Count |
++--------------------------+-----------------------------------+----------------------------------+------------------+----------------+
+|  u11/inst/clk_out3       |                                   | Inst_vga/vga_hsync0              |                1 |              1 |
+|  u11/inst/clk_out3       |                                   | Inst_vga/vga_vsync0              |                1 |              1 |
+|  u11/inst/clk_out1       |                                   |                                  |                1 |              1 |
+|  u11/inst/clk_out2       | IIC/u_I2C_Controller/E[0]         | btn_debounce/resend              |                2 |              4 |
+|  u11/inst/clk_out2       | IIC_2/u_I2C_Controller/E[0]       | btn_debounce/resend              |                3 |              4 |
+|  OV7670_PCLK_2_IBUF_BUFG |                                   | OV7670_VSYNC_2_IBUF              |                2 |              6 |
+|  OV7670_PCLK_IBUF_BUFG   |                                   | OV7670_VSYNC_IBUF                |                3 |              6 |
+|  u11/inst/clk_out2       | IIC/u_I2C_Controller/SD_COUNTER   | btn_debounce/resend              |                5 |              6 |
+|  u11/inst/clk_out2       | IIC_2/u_I2C_Controller/SD_COUNTER | btn_debounce/resend              |                2 |              6 |
+|  u11/inst/clk_out3       | Inst_vga/vCounter_1               |                                  |                3 |             10 |
+|  OV7670_PCLK_2_IBUF_BUFG |                                   | capture_2/address[15]_i_1__0_n_0 |                3 |             13 |
+|  OV7670_PCLK_IBUF_BUFG   |                                   | capture/address[15]_i_1_n_0      |                3 |             13 |
+|  OV7670_PCLK_2_IBUF_BUFG | capture_2/dout[15]_i_1__0_n_0     |                                  |                5 |             15 |
+|  OV7670_PCLK_IBUF_BUFG   | capture/dout[15]_i_1_n_0          |                                  |                9 |             15 |
+|  OV7670_PCLK_2_IBUF_BUFG | capture_2/d_latch[15]_i_1__0_n_0  |                                  |                9 |             16 |
+|  OV7670_PCLK_IBUF_BUFG   | capture/d_latch[15]_i_1_n_0       |                                  |                8 |             16 |
+|  u11/inst/clk_out2       | IIC/sel                           | btn_debounce/resend              |                6 |             16 |
+|  u11/inst/clk_out2       | IIC_2/LUT_INDEX_rep[7]_i_1__0_n_0 | btn_debounce/resend              |                5 |             16 |
+|  OV7670_PCLK_2_IBUF_BUFG | capture_2/wr_hold_reg_n_0_[1]     | OV7670_VSYNC_2_IBUF              |                5 |             17 |
+|  OV7670_PCLK_IBUF_BUFG   | capture/p_0_in1_in                | OV7670_VSYNC_IBUF                |                5 |             17 |
+|  u11/inst/clk_out3       | Inst_vga/address_2                | Inst_vga/clear                   |                5 |             17 |
+|  u11/inst/clk_out3       | Inst_vga/address[0]_i_2_n_0       | Inst_vga/clear                   |                5 |             17 |
+|  u11/inst/clk_out1       |                                   | btn_debounce/c[0]_i_1_n_0        |                6 |             24 |
+|  u11/inst/clk_out3       |                                   |                                  |               21 |             36 |
+|  u11/inst/clk_out2       |                                   | btn_debounce/resend              |               21 |             46 |
++--------------------------+-----------------------------------+----------------------------------+------------------+----------------+
+
+

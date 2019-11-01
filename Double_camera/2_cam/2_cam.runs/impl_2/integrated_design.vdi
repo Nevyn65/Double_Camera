@@ -1,0 +1,709 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Aug 14 10:31:47 2019
+# Process ID: 21196
+# Current directory: C:/Users/84646/Desktop/Ne/double_camera/2_cam/2_cam.runs/impl_2
+# Command line: vivado.exe -log integrated_design.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source integrated_design.tcl -notrace
+# Log file: C:/Users/84646/Desktop/Ne/double_camera/2_cam/2_cam.runs/impl_2/integrated_design.vdi
+# Journal file: C:/Users/84646/Desktop/Ne/double_camera/2_cam/2_cam.runs/impl_2\vivado.jou
+#-----------------------------------------------------------
+source integrated_design.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+add_files: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 382.590 ; gain = 66.559
+Command: link_design -top integrated_design -part xc7z020clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_xlconstant_0_0/integrated_design_xlconstant_0_0.dcp' for cell 'GND'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_xlconstant_1_0/integrated_design_xlconstant_1_0.dcp' for cell 'VCC'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_0_0/integrated_design_axi_vdma_0_0.dcp' for cell 'axi_vdma_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_0_1/integrated_design_axi_vdma_0_1.dcp' for cell 'axi_vdma_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_2_0/integrated_design_axi_vdma_2_0.dcp' for cell 'axi_vdma_2'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_2_1/integrated_design_axi_vdma_2_1.dcp' for cell 'axi_vdma_3'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_2_2/integrated_design_axi_vdma_2_2.dcp' for cell 'axi_vdma_4'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_3_0/integrated_design_axi_vdma_3_0.dcp' for cell 'axi_vdma_5'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_1_0/integrated_design_axi_vdma_1_0.dcp' for cell 'axi_vdma_6'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axis_broadcaster_0_0/integrated_design_axis_broadcaster_0_0.dcp' for cell 'axis_broadcaster_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axis_broadcaster_1_0/integrated_design_axis_broadcaster_1_0.dcp' for cell 'axis_broadcaster_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_clk_wiz_0_0/integrated_design_clk_wiz_0_0.dcp' for cell 'clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_preprocess_0_0/integrated_design_preprocess_0_0.dcp' for cell 'preprocess_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_preprocess_0_1/integrated_design_preprocess_0_1.dcp' for cell 'preprocess_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_processing_system7_0_0/integrated_design_processing_system7_0_0.dcp' for cell 'processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_rst_ps7_0_150M_0/integrated_design_rst_ps7_0_150M_0.dcp' for cell 'rst_ps7_0_100M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_rst_ps7_0_100M_0/integrated_design_rst_ps7_0_100M_0.dcp' for cell 'rst_ps7_0_50M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_stereo_0_0/integrated_design_stereo_0_0.dcp' for cell 'stereo_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_xlconcat_0_0/integrated_design_xlconcat_0_0.dcp' for cell 'xlconcat_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_xlconcat_1_0/integrated_design_xlconcat_1_0.dcp' for cell 'xlconcat_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_rgb2dvi_0_0/integrated_design_rgb2dvi_0_0.dcp' for cell 'AXIS2HDMI/rgb2dvi_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_axi4s_vid_out_0_0/integrated_design_v_axi4s_vid_out_0_0.dcp' for cell 'AXIS2HDMI/v_axi4s_vid_out_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_tc_0_0/integrated_design_v_tc_0_0.dcp' for cell 'AXIS2HDMI/v_tc_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_OV_CAM_0_0/integrated_design_OV_CAM_0_0.dcp' for cell 'OV2AXIS_L/OV_CAM_L'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_vid_in_axi4s_0_0/integrated_design_v_vid_in_axi4s_0_0.dcp' for cell 'OV2AXIS_L/v_vid_in_axi4s_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_OV_CAM_L_0/integrated_design_OV_CAM_L_0.dcp' for cell 'OV2AXIS_R/OV_CAM_R'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_vid_in_axi4s_0_1/integrated_design_v_vid_in_axi4s_0_1.dcp' for cell 'OV2AXIS_R/v_vid_in_axi4s_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_xbar_0/integrated_design_xbar_0.dcp' for cell 'axi_mem_intercon/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_auto_pc_0/integrated_design_auto_pc_0.dcp' for cell 'axi_mem_intercon/m00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_xbar_4/integrated_design_xbar_4.dcp' for cell 'axi_mem_intercon_1/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_auto_pc_1/integrated_design_auto_pc_1.dcp' for cell 'axi_mem_intercon_1/m00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_xbar_2/integrated_design_xbar_2.dcp' for cell 'axi_mem_intercon_2/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_auto_pc_2/integrated_design_auto_pc_2.dcp' for cell 'axi_mem_intercon_2/m00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_xbar_3/integrated_design_xbar_3.dcp' for cell 'axi_mem_intercon_3/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_auto_pc_3/integrated_design_auto_pc_3.dcp' for cell 'axi_mem_intercon_3/m00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_xbar_1/integrated_design_xbar_1.dcp' for cell 'ps7_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_auto_pc_4/integrated_design_auto_pc_4.dcp' for cell 'ps7_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Netlist 29-17] Analyzing 1412 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. clk_wiz_0/inst/clkin1_ibufg 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'clk_wiz_0/clk_in1' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_clk_wiz_0_0/integrated_design_clk_wiz_0_0/integrated_design_clk_wiz_0_0.edf:305]
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_clk_wiz_0_0/integrated_design_clk_wiz_0_0_board.xdc] for cell 'clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_clk_wiz_0_0/integrated_design_clk_wiz_0_0_board.xdc] for cell 'clk_wiz_0/inst'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_clk_wiz_0_0/integrated_design_clk_wiz_0_0.xdc] for cell 'clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_clk_wiz_0_0/integrated_design_clk_wiz_0_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_clk_wiz_0_0/integrated_design_clk_wiz_0_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1537.785 ; gain = 608.453
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_clk_wiz_0_0/integrated_design_clk_wiz_0_0.xdc] for cell 'clk_wiz_0/inst'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_processing_system7_0_0/integrated_design_processing_system7_0_0.xdc] for cell 'processing_system7_0/inst'
+WARNING: [Vivado 12-2489] -input_jitter contains time 0.207690 which will be rounded to 0.208 to ensure it is an integer multiple of 1 picosecond [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_processing_system7_0_0/integrated_design_processing_system7_0_0.xdc:27]
+WARNING: [Vivado 12-2489] -input_jitter contains time 0.161520 which will be rounded to 0.162 to ensure it is an integer multiple of 1 picosecond [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_processing_system7_0_0/integrated_design_processing_system7_0_0.xdc:30]
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_processing_system7_0_0/integrated_design_processing_system7_0_0.xdc] for cell 'processing_system7_0/inst'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_0_0/integrated_design_axi_vdma_0_0.xdc] for cell 'axi_vdma_0/U0'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_0_0/integrated_design_axi_vdma_0_0.xdc] for cell 'axi_vdma_0/U0'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_rst_ps7_0_100M_0/integrated_design_rst_ps7_0_100M_0_board.xdc] for cell 'rst_ps7_0_50M/U0'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_rst_ps7_0_100M_0/integrated_design_rst_ps7_0_100M_0_board.xdc] for cell 'rst_ps7_0_50M/U0'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_rst_ps7_0_100M_0/integrated_design_rst_ps7_0_100M_0.xdc] for cell 'rst_ps7_0_50M/U0'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_rst_ps7_0_100M_0/integrated_design_rst_ps7_0_100M_0.xdc] for cell 'rst_ps7_0_50M/U0'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_rst_ps7_0_150M_0/integrated_design_rst_ps7_0_150M_0_board.xdc] for cell 'rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_rst_ps7_0_150M_0/integrated_design_rst_ps7_0_150M_0_board.xdc] for cell 'rst_ps7_0_100M/U0'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_rst_ps7_0_150M_0/integrated_design_rst_ps7_0_150M_0.xdc] for cell 'rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_rst_ps7_0_150M_0/integrated_design_rst_ps7_0_150M_0.xdc] for cell 'rst_ps7_0_100M/U0'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_0_1/integrated_design_axi_vdma_0_1.xdc] for cell 'axi_vdma_1/U0'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_0_1/integrated_design_axi_vdma_0_1.xdc] for cell 'axi_vdma_1/U0'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_2_0/integrated_design_axi_vdma_2_0.xdc] for cell 'axi_vdma_2/U0'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_2_0/integrated_design_axi_vdma_2_0.xdc] for cell 'axi_vdma_2/U0'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_2_1/integrated_design_axi_vdma_2_1.xdc] for cell 'axi_vdma_3/U0'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_2_1/integrated_design_axi_vdma_2_1.xdc] for cell 'axi_vdma_3/U0'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_2_2/integrated_design_axi_vdma_2_2.xdc] for cell 'axi_vdma_4/U0'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_2_2/integrated_design_axi_vdma_2_2.xdc] for cell 'axi_vdma_4/U0'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_3_0/integrated_design_axi_vdma_3_0.xdc] for cell 'axi_vdma_5/U0'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_3_0/integrated_design_axi_vdma_3_0.xdc] for cell 'axi_vdma_5/U0'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_rgb2dvi_0_0/src/rgb2dvi.xdc] for cell 'AXIS2HDMI/rgb2dvi_0/U0'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_rgb2dvi_0_0/src/rgb2dvi.xdc] for cell 'AXIS2HDMI/rgb2dvi_0/U0'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_1_0/integrated_design_axi_vdma_1_0.xdc] for cell 'axi_vdma_6/U0'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_1_0/integrated_design_axi_vdma_1_0.xdc] for cell 'axi_vdma_6/U0'
+Parsing XDC File [C:/Users/84646/Desktop/integration.srcs/constrs_1/new/debug.xdc]
+WARNING: [Vivado 12-508] No pins matched 'integrated_design_i/OV2AXIS_L/OV_CAM_L/inst/capturer/pclk_out_reg/Q'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/new/debug.xdc:4]
+CRITICAL WARNING: [Vivado 12-4739] create_generated_clock:No valid object(s) found for '-objects [get_pins integrated_design_i/OV2AXIS_L/OV_CAM_L/inst/capturer/pclk_out_reg/Q]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/new/debug.xdc:4]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'integrated_design_i/OV2AXIS_R/OV_CAM_R/inst/capturer/pclk_out_reg/Q'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/new/debug.xdc:5]
+CRITICAL WARNING: [Vivado 12-4739] create_generated_clock:No valid object(s) found for '-objects [get_pins integrated_design_i/OV2AXIS_R/OV_CAM_R/inst/capturer/pclk_out_reg/Q]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/new/debug.xdc:5]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'integrated_design_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/new/debug.xdc:7]
+WARNING: [Vivado 12-508] No pins matched 'integrated_design_i/OV2AXIS_L/OV_CAM_L/inst/divider/sccbclk_reg/Q'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/new/debug.xdc:7]
+CRITICAL WARNING: [Vivado 12-4739] create_generated_clock:No valid object(s) found for '-source [get_pins {integrated_design_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]}]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/new/debug.xdc:7]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'integrated_design_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/new/debug.xdc:8]
+WARNING: [Vivado 12-508] No pins matched 'integrated_design_i/OV2AXIS_R/OV_CAM_R/inst/divider/sccbclk_reg/Q'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/new/debug.xdc:8]
+CRITICAL WARNING: [Vivado 12-4739] create_generated_clock:No valid object(s) found for '-source [get_pins {integrated_design_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]}]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/new/debug.xdc:8]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'integrated_design_i/OV2AXIS_L/OV_CAM_L/inst/divider/sccbclk_reg/Q'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/new/debug.xdc:11]
+WARNING: [Vivado 12-508] No pins matched 'integrated_design_i/OV2AXIS_L/OV_CAM_L/inst/sccb/FSM_onehot_fsm_cs_reg[0]/Q'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/new/debug.xdc:11]
+CRITICAL WARNING: [Vivado 12-4739] create_generated_clock:No valid object(s) found for '-source [get_pins integrated_design_i/OV2AXIS_L/OV_CAM_L/inst/divider/sccbclk_reg/Q]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/new/debug.xdc:11]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'integrated_design_i/OV2AXIS_R/OV_CAM_R/inst/divider/sccbclk_reg/Q'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/new/debug.xdc:12]
+WARNING: [Vivado 12-508] No pins matched 'integrated_design_i/OV2AXIS_R/OV_CAM_R/inst/sccb/FSM_onehot_fsm_cs_reg[0]/Q'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/new/debug.xdc:12]
+CRITICAL WARNING: [Vivado 12-4739] create_generated_clock:No valid object(s) found for '-source [get_pins integrated_design_i/OV2AXIS_R/OV_CAM_R/inst/divider/sccbclk_reg/Q]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/new/debug.xdc:12]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [C:/Users/84646/Desktop/integration.srcs/constrs_1/new/debug.xdc]
+Parsing XDC File [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:10]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:10]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_r[0]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:299]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:299]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_r[0]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:300]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:300]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_r[1]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:303]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:303]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_r[1]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:304]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:304]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_r[2]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:307]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:307]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_r[2]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:308]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:308]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_r[3]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:311]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:311]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_r[3]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:312]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:312]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_r[4]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:315]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:315]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_r[4]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:316]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:316]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_g[0]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:319]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:319]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_g[0]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:320]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:320]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_g[1]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:323]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:323]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_g[1]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:324]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:324]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_g[2]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:327]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:327]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_g[2]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:328]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:328]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_g[3]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:331]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:331]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_g[3]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:332]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:332]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_g[4]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:335]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:335]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_g[4]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:336]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:336]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_g[5]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:339]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:339]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_g[5]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:340]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:340]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_b[0]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:343]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:343]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_b[0]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:344]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:344]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_b[1]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:347]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:347]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_b[1]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:348]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:348]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_b[2]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:351]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:351]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_b[2]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:352]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:352]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_b[3]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:355]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:355]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_b[3]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:356]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:356]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_b[4]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:359]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:359]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_b[4]'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:360]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:360]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_hs'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:363]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:363]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_hs'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:364]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:364]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_vs'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:367]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:367]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_vs'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:368]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:368]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov_cam_l_scl_io'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:378]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:378]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov_cam_l_sda_io'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:379]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:379]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov_cam_r_scl_io'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:380]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:380]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov_cam_r_sda_io'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:381]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:381]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov_cam_l_sda_io'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:486]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:486]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov_cam_l_sda_io'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:487]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:487]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov_cam_l_scl_io'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:502]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:502]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov_cam_l_scl_io'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:503]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:503]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'ov_cam_l_pclk_IBUF_BUFG'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:510]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:510]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov_cam_r_sda_io'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:560]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:560]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov_cam_r_sda_io'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:561]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:561]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov_cam_r_scl_io'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:576]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:576]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov_cam_r_scl_io'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:577]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:577]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'ov_cam_r_pclk_IBUF_BUFG'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:580]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc:580]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/ZYBO_Master.xdc]
+Parsing XDC File [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Terminal led[0] cannot be placed on R14 (IOB_X1Y87) because the pad is already occupied by terminal ov_cam_r_href possibly due to user constraint [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:25]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Terminal led[1] cannot be placed on P14 (IOB_X1Y88) because the pad is already occupied by terminal ov_cam_r_d[4] possibly due to user constraint [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:26]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Cannot set PACKAGE_PIN property of ports,  port led[3] can not be placed on PACKAGE_PIN M14 because the PACKAGE_PIN is occupied by port led[0] [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:28]
+WARNING: [Vivado 12-584] No ports matched 'ov_cam_l_scl_io'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov_cam_l_sda_io'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov_cam_r_scl_io'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov_cam_r_sda_io'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'ov_cam_l_pclk_IBUF_BUFG'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'ov_cam_r_pclk_IBUF_BUFG'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Cannot set PACKAGE_PIN property of ports,  port ov_cam_l_pwdn can not be placed on PACKAGE_PIN T14 because the PACKAGE_PIN is occupied by port ov_cam_r_pwdn [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:98]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Cannot set PACKAGE_PIN property of ports,  port ov_cam_l_href can not be placed on PACKAGE_PIN V13 because the PACKAGE_PIN is occupied by port ov_cam_r_d[7] [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:101]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Cannot set PACKAGE_PIN property of ports,  port ov_cam_l_d[2] can not be placed on PACKAGE_PIN T15 because the PACKAGE_PIN is occupied by port ov_cam_r_d[1] [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:103]
+WARNING: [Vivado 12-584] No ports matched 'ov_cam_l_sda_io'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:105]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Terminal ov_cam_r_resetn cannot be placed on V17 (IOB_X1Y58) because the pad is already occupied by terminal ov_cam_r_d[0] possibly due to user constraint [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:106]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Terminal ov_cam_r_d[5] cannot be placed on V18 (IOB_X1Y57) because the pad is already occupied by terminal ov_cam_r_xclk possibly due to user constraint [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:107]
+WARNING: [Vivado 12-584] No ports matched 'ov_cam_l_scl_io'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:142]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:142]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov_cam_r_scl_io'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:162]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:162]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov_cam_r_sda_io'. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:163]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc:163]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/84646/Desktop/integration.srcs/constrs_1/imports/constraints/PYNQ-Z1_C.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_vid_in_axi4s_0_0/integrated_design_v_vid_in_axi4s_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_clk_wiz_0_0/integrated_design_clk_wiz_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_processing_system7_0_0/integrated_design_processing_system7_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_0_0/integrated_design_axi_vdma_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_rst_ps7_0_100M_0/integrated_design_rst_ps7_0_100M_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_rst_ps7_0_150M_0/integrated_design_rst_ps7_0_150M_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_tc_0_0/integrated_design_v_tc_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_axi4s_vid_out_0_0/integrated_design_v_axi4s_vid_out_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_vid_in_axi4s_0_1/integrated_design_v_vid_in_axi4s_0_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_0_1/integrated_design_axi_vdma_0_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_preprocess_0_0/integrated_design_preprocess_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_2_0/integrated_design_axi_vdma_2_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_2_1/integrated_design_axi_vdma_2_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_preprocess_0_1/integrated_design_preprocess_0_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_2_2/integrated_design_axi_vdma_2_2.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_3_0/integrated_design_axi_vdma_3_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_rgb2dvi_0_0/integrated_design_rgb2dvi_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_xbar_0/integrated_design_xbar_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_xbar_2/integrated_design_xbar_2.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_xbar_3/integrated_design_xbar_3.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_xbar_1/integrated_design_xbar_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_stereo_0_0/integrated_design_stereo_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axis_broadcaster_0_0/integrated_design_axis_broadcaster_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axis_broadcaster_1_0/integrated_design_axis_broadcaster_1_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_1_0/integrated_design_axi_vdma_1_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_xbar_4/integrated_design_xbar_4.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_auto_pc_0/integrated_design_auto_pc_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_auto_pc_1/integrated_design_auto_pc_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_auto_pc_2/integrated_design_auto_pc_2.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_auto_pc_3/integrated_design_auto_pc_3.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_auto_pc_4/integrated_design_auto_pc_4.dcp'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_vid_in_axi4s_0_0/integrated_design_v_vid_in_axi4s_0_0_clocks.xdc] for cell 'OV2AXIS_L/v_vid_in_axi4s_0/inst'
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports -scoped_to_current_instance vid_io_in_clk]'. [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_vid_in_axi4s_0_0/integrated_design_v_vid_in_axi4s_0_0_clocks.xdc:6]
+Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_vid_in_axi4s_0_0/integrated_design_v_vid_in_axi4s_0_0_clocks.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'get_property' expects at least one object. [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_vid_in_axi4s_0_0/integrated_design_v_vid_in_axi4s_0_0_clocks.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_vid_in_axi4s_0_0/integrated_design_v_vid_in_axi4s_0_0_clocks.xdc] for cell 'OV2AXIS_L/v_vid_in_axi4s_0/inst'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_0_0/integrated_design_axi_vdma_0_0_clocks.xdc] for cell 'axi_vdma_0/U0'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_0_0/integrated_design_axi_vdma_0_0_clocks.xdc] for cell 'axi_vdma_0/U0'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_tc_0_0/integrated_design_v_tc_0_0_clocks.xdc] for cell 'AXIS2HDMI/v_tc_0/U0'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_tc_0_0/integrated_design_v_tc_0_0_clocks.xdc] for cell 'AXIS2HDMI/v_tc_0/U0'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_axi4s_vid_out_0_0/integrated_design_v_axi4s_vid_out_0_0_clocks.xdc] for cell 'AXIS2HDMI/v_axi4s_vid_out_0/inst'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_axi4s_vid_out_0_0/integrated_design_v_axi4s_vid_out_0_0_clocks.xdc] for cell 'AXIS2HDMI/v_axi4s_vid_out_0/inst'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_vid_in_axi4s_0_1/integrated_design_v_vid_in_axi4s_0_1_clocks.xdc] for cell 'OV2AXIS_R/v_vid_in_axi4s_0/inst'
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports -scoped_to_current_instance vid_io_in_clk]'. [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_vid_in_axi4s_0_1/integrated_design_v_vid_in_axi4s_0_1_clocks.xdc:6]
+Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_vid_in_axi4s_0_1/integrated_design_v_vid_in_axi4s_0_1_clocks.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'get_property' expects at least one object. [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_vid_in_axi4s_0_1/integrated_design_v_vid_in_axi4s_0_1_clocks.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_v_vid_in_axi4s_0_1/integrated_design_v_vid_in_axi4s_0_1_clocks.xdc] for cell 'OV2AXIS_R/v_vid_in_axi4s_0/inst'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_0_1/integrated_design_axi_vdma_0_1_clocks.xdc] for cell 'axi_vdma_1/U0'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_0_1/integrated_design_axi_vdma_0_1_clocks.xdc] for cell 'axi_vdma_1/U0'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_2_0/integrated_design_axi_vdma_2_0_clocks.xdc] for cell 'axi_vdma_2/U0'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_2_0/integrated_design_axi_vdma_2_0_clocks.xdc] for cell 'axi_vdma_2/U0'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_2_1/integrated_design_axi_vdma_2_1_clocks.xdc] for cell 'axi_vdma_3/U0'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_2_1/integrated_design_axi_vdma_2_1_clocks.xdc] for cell 'axi_vdma_3/U0'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_2_2/integrated_design_axi_vdma_2_2_clocks.xdc] for cell 'axi_vdma_4/U0'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_2_2/integrated_design_axi_vdma_2_2_clocks.xdc] for cell 'axi_vdma_4/U0'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_3_0/integrated_design_axi_vdma_3_0_clocks.xdc] for cell 'axi_vdma_5/U0'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_3_0/integrated_design_axi_vdma_3_0_clocks.xdc] for cell 'axi_vdma_5/U0'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_rgb2dvi_0_0/src/rgb2dvi_clocks.xdc] for cell 'AXIS2HDMI/rgb2dvi_0/U0'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_rgb2dvi_0_0/src/rgb2dvi_clocks.xdc] for cell 'AXIS2HDMI/rgb2dvi_0/U0'
+Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_1_0/integrated_design_axi_vdma_1_0_clocks.xdc] for cell 'axi_vdma_6/U0'
+Finished Parsing XDC File [c:/Users/84646/Desktop/integration.srcs/sources_1/bd/integrated_design/ip/integrated_design_axi_vdma_1_0/integrated_design_axi_vdma_1_0_clocks.xdc] for cell 'axi_vdma_6/U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 22 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 18 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 4 instances
+
+82 Infos, 83 Warnings, 83 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:52 ; elapsed = 00:00:58 . Memory (MB): peak = 1543.980 ; gain = 1161.391
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1543.980 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 17 inverter(s) to 175 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 14ad32dc9
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1543.980 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 14772bab2
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1543.980 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 242 cells and removed 1784 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 13bb55a2a
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1543.980 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 936 cells
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG ov_cam_l_pclk_IBUF_BUFG_inst to drive 36 load(s) on clock net ov_cam_l_pclk_IBUF_BUFG
+INFO: [Opt 31-194] Inserted BUFG ov_cam_r_pclk_IBUF_BUFG_inst to drive 36 load(s) on clock net ov_cam_r_pclk_IBUF_BUFG
+INFO: [Opt 31-193] Inserted 2 BUFG(s) on clock nets
+Phase 4 BUFG optimization | Checksum: 156145792
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1543.980 ; gain = 0.000
+INFO: [Opt 31-389] Phase BUFG optimization created 2 cells and removed 0 cells
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 156145792
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1543.980 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 156145792
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1543.980 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.194 . Memory (MB): peak = 1543.980 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 156145792
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1543.980 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=2.729 | TNS=0.000 |
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 11 BRAM(s) out of a total of 107 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 50 newly gated: 0 Total Ports: 214
+Ending PowerOpt Patch Enables Task | Checksum: 9912c5b2
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2175.203 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 9912c5b2
+
+Time (s): cpu = 00:01:05 ; elapsed = 00:00:35 . Memory (MB): peak = 2175.203 ; gain = 631.223
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1 Remap
+Phase 1 Remap | Checksum: a39646b4
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 2175.203 ; gain = 0.000
+INFO: [Opt 31-389] Phase Remap created 12 cells and removed 36 cells
+
+Phase 2 Post Processing Netlist
+Phase 2 Post Processing Netlist | Checksum: a7d5148e
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 2175.203 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Ending Logic Optimization Task | Checksum: a7d5148e
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 2175.203 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+111 Infos, 83 Warnings, 83 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:01:42 ; elapsed = 00:01:06 . Memory (MB): peak = 2175.203 ; gain = 631.223
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.147 . Memory (MB): peak = 2175.203 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/84646/Desktop/Ne/double_camera/2_cam/2_cam.runs/impl_2/integrated_design_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:21 ; elapsed = 00:00:14 . Memory (MB): peak = 2175.203 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file integrated_design_drc_opted.rpt -pb integrated_design_drc_opted.pb -rpx integrated_design_drc_opted.rpx
+Command: report_drc -file integrated_design_drc_opted.rpt -pb integrated_design_drc_opted.pb -rpx integrated_design_drc_opted.rpx
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/84646/Desktop/Ne/double_camera/2_cam/2_cam.runs/impl_2/integrated_design_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 2175.203 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC CHECK-3] Report rule limit reached: REQP-1839 rule limit reached: 20 violations have been found.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ADDRARDADDR[10] (net: AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/Q[5]) which is driven by a register (AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ADDRARDADDR[11] (net: AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/Q[6]) which is driven by a register (AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ADDRARDADDR[12] (net: AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/Q[7]) which is driven by a register (AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ADDRARDADDR[13] (net: AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/Q[8]) which is driven by a register (AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ADDRARDADDR[14] (net: AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/Q[9]) which is driven by a register (AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[9]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ADDRARDADDR[5] (net: AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/Q[0]) which is driven by a register (AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ADDRARDADDR[6] (net: AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/Q[1]) which is driven by a register (AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ADDRARDADDR[7] (net: AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/Q[2]) which is driven by a register (AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ADDRARDADDR[8] (net: AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/Q[3]) which is driven by a register (AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ADDRARDADDR[9] (net: AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/Q[4]) which is driven by a register (AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ADDRBWRADDR[10] (net: AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/gc0.count_d1_reg[9][5]) which is driven by a register (AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ADDRBWRADDR[11] (net: AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/gc0.count_d1_reg[9][6]) which is driven by a register (AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ADDRBWRADDR[12] (net: AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/gc0.count_d1_reg[9][7]) which is driven by a register (AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ADDRBWRADDR[13] (net: AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/gc0.count_d1_reg[9][8]) which is driven by a register (AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ADDRBWRADDR[14] (net: AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/gc0.count_d1_reg[9][9]) which is driven by a register (AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[9]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ADDRBWRADDR[5] (net: AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/gc0.count_d1_reg[9][0]) which is driven by a register (AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ADDRBWRADDR[6] (net: AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/gc0.count_d1_reg[9][1]) which is driven by a register (AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ADDRBWRADDR[7] (net: AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/gc0.count_d1_reg[9][2]) which is driven by a register (AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ADDRBWRADDR[8] (net: AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/gc0.count_d1_reg[9][3]) which is driven by a register (AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ADDRBWRADDR[9] (net: AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/gc0.count_d1_reg[9][4]) which is driven by a register (AXIS2HDMI/v_axi4s_vid_out_0/inst/COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 21 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.093 . Memory (MB): peak = 2175.203 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: d814cd1e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.114 . Memory (MB): peak = 2175.203 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.095 . Memory (MB): peak = 2175.203 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (8) is greater than number of available sites (0).
+The following are banks with available pins: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  Out  RangeId: 1 Drv: 12  has only 0 sites available on device, but needs 8 sites.
+	Term: ov_cam_l_scl_o
+	Term: ov_cam_l_scl_t
+	Term: ov_cam_l_sda_o
+	Term: ov_cam_l_sda_t
+	Term: ov_cam_r_scl_o
+	Term: ov_cam_r_scl_t
+	Term: ov_cam_r_sda_o
+	Term: ov_cam_r_sda_t
+
+
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (2) is greater than number of available sites (0).
+The following are banks with available pins: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  Out  RangeId: 1 Drv: 12  has only 0 sites available on device, but needs 8 sites.
+	Term: ov_cam_l_scl_o
+	Term: ov_cam_l_scl_t
+	Term: ov_cam_l_sda_o
+	Term: ov_cam_l_sda_t
+	Term: ov_cam_r_scl_o
+	Term: ov_cam_r_scl_t
+	Term: ov_cam_r_sda_o
+	Term: ov_cam_r_sda_t
+
+
+ IO Group: 1 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  In   RangeId: 1  has only 0 sites available on device, but needs 2 sites.
+	Term: ov_cam_l_sda_i
+	Term: ov_cam_r_sda_i
+
+
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (10) is greater than number of available sites (0).
+The following are banks with available pins: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  Out  RangeId: 1 Drv: 12  has only 0 sites available on device, but needs 8 sites.
+	Term: ov_cam_l_scl_o
+	Term: ov_cam_l_scl_t
+	Term: ov_cam_l_sda_o
+	Term: ov_cam_l_sda_t
+	Term: ov_cam_r_scl_o
+	Term: ov_cam_r_scl_t
+	Term: ov_cam_r_sda_o
+	Term: ov_cam_r_sda_t
+
+
+ IO Group: 1 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  In   RangeId: 1  has only 0 sites available on device, but needs 2 sites.
+	Term: ov_cam_l_sda_i
+	Term: ov_cam_r_sda_i
+
+
+ERROR: [Place 30-374] IO placer failed to find a solution
+Below is the partial placement that can be analyzed to see if any constraint modifications will make the IO placement problem easier to solve.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                     IO Placement : Bank Stats                                                                           |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+| Id | Pins  | Terms |                               Standards                                |                IDelayCtrls               |  VREF  |  VCCO  |   VR   | DCI |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|  0 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 13 |    25 |    15 | LVCMOS33(15)                                                           |                                          |        |  +3.30 |    YES |     |
+| 34 |    50 |    13 | LVCMOS33(13)                                                           |                                          |        |  +3.30 |    YES |     |
+| 35 |    50 |    12 | TMDS_33(8)  LVCMOS33(4)                                                |                                          |        |  +3.30 |    YES |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|    |   125 |    40 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+
+IO Placement:
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| BankId |             Terminal | Standard        | Site                 | Pin                  | Attributes           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 13     | ov_cam_l_d[0]        | LVCMOS33        | IOB_X0Y6             | V6                   |                      |
+|        | ov_cam_l_d[3]        | LVCMOS33        | IOB_X0Y15            | U8                   |                      |
+|        | ov_cam_l_d[5]        | LVCMOS33        | IOB_X0Y37            | V5                   | *                    |
+|        | ov_cam_l_d[7]        | LVCMOS33        | IOB_X0Y27            | V7                   |                      |
+|        | ov_cam_l_pclk        | LVCMOS33        | IOB_X0Y20            | V8                   |                      |
+|        | ov_cam_l_resetn      | LVCMOS33        | IOB_X0Y11            | U5                   | *                    |
+|        | ov_cam_l_xclk        | LVCMOS33        | IOB_X0Y28            | U7                   |                      |
+|        | ov_cam_r_d[1]        | LVCMOS33        | IOB_X0Y23            | Y6                   |                      |
+|        | ov_cam_r_d[2]        | LVCMOS33        | IOB_X0Y17            | W9                   |                      |
+|        | ov_cam_r_d[4]        | LVCMOS33        | IOB_X0Y24            | Y7                   |                      |
+|        | ov_cam_r_d[6]        | LVCMOS33        | IOB_X0Y21            | Y8                   |                      |
+|        | ov_cam_r_href        | LVCMOS33        | IOB_X0Y19            | W8                   |                      |
+|        | ov_cam_r_pclk        | LVCMOS33        | IOB_X0Y9             | Y13                  |                      |
+|        | ov_cam_r_pwdn        | LVCMOS33        | IOB_X0Y18            | W10                  |                      |
+|        | ov_cam_r_vsync       | LVCMOS33        | IOB_X0Y22            | Y9                   |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 34     | ov_cam_l_d[1]        | LVCMOS33        | IOB_X1Y95            | U12                  |                      |
+|        | ov_cam_l_d[2]        | LVCMOS33        | IOB_X1Y79            | W15                  |                      |
+|        | ov_cam_l_d[4]        | LVCMOS33        | IOB_X1Y94            | U13                  |                      |
+|        | ov_cam_l_d[6]        | LVCMOS33        | IOB_X1Y80            | V15                  |                      |
+|        | ov_cam_l_href        | LVCMOS33        | IOB_X1Y67            | W20                  |                      |
+|        | ov_cam_l_pwdn        | LVCMOS33        | IOB_X1Y70            | T20                  |                      |
+|        | ov_cam_l_vsync       | LVCMOS33        | IOB_X1Y62            | R16                  |                      |
+|        | ov_cam_r_d[0]        | LVCMOS33        | IOB_X1Y82            | T16                  |                      |
+|        | ov_cam_r_d[3]        | LVCMOS33        | IOB_X1Y54            | N17                  |                      |
+|        | ov_cam_r_d[5]        | LVCMOS33        | IOB_X1Y77            | U15                  |                      |
+|        | ov_cam_r_d[7]        | LVCMOS33        | IOB_X1Y53            | P18                  |                      |
+|        | ov_cam_r_resetn      | LVCMOS33        | IOB_X1Y78            | U14                  |                      |
+|        | ov_cam_r_xclk        | LVCMOS33        | IOB_X1Y61            | R17                  | *                    |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 35     | hdmi_out_clk_p       | TMDS_33         | IOB_X1Y128           | L16                  |                      |
+|        | hdmi_out_clk_n       | TMDS_33         | IOB_X1Y127           | L17                  |                      |
+|        | hdmi_out_data_p[0]   | TMDS_33         | IOB_X1Y126           | K17                  |                      |
+|        | hdmi_out_data_n[0]   | TMDS_33         | IOB_X1Y125           | K18                  |                      |
+|        | hdmi_out_data_p[1]   | TMDS_33         | IOB_X1Y130           | K19                  |                      |
+|        | hdmi_out_data_n[1]   | TMDS_33         | IOB_X1Y129           | J19                  |                      |
+|        | hdmi_out_data_p[2]   | TMDS_33         | IOB_X1Y122           | J18                  |                      |
+|        | hdmi_out_data_n[2]   | TMDS_33         | IOB_X1Y121           | H18                  |                      |
+|        | led[0]               | LVCMOS33        | IOB_X1Y104           | M14                  |                      |
+|        | led[1]               | LVCMOS33        | IOB_X1Y103           | M15                  |                      |
+|        | led[2]               | LVCMOS33        | IOB_X1Y107           | N16                  |                      |
+|        | led[3]               | LVCMOS33        | IOB_X1Y143           | D18                  |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: ae672a10
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 2175.203 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: ae672a10
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 2175.203 ; gain = 0.000
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: ae672a10
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 2175.203 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+128 Infos, 104 Warnings, 83 Critical Warnings and 6 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Wed Aug 14 10:34:52 2019...

@@ -1,0 +1,4 @@
+verilog xil_defaultlib "../../../../Pmod_30M.srcs/sources_1/ip/PLL_108_1/PLL_108_clk_wiz.v" --include "../../../ipstatic"
+verilog xil_defaultlib "../../../../Pmod_30M.srcs/sources_1/ip/PLL_108_1/PLL_108.v" --include "../../../ipstatic"
+verilog xil_defaultlib "glbl.v"
+nosort

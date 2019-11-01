@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Aug 14 10:31:47 2019
+# Process ID: 21196
+# Current directory: C:/Users/84646/Desktop/Ne/double_camera/2_cam/2_cam.runs/impl_2
+# Command line: vivado.exe -log integrated_design.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source integrated_design.tcl -notrace
+# Log file: C:/Users/84646/Desktop/Ne/double_camera/2_cam/2_cam.runs/impl_2/integrated_design.vdi
+# Journal file: C:/Users/84646/Desktop/Ne/double_camera/2_cam/2_cam.runs/impl_2\vivado.jou
+#-----------------------------------------------------------
+source integrated_design.tcl -notrace

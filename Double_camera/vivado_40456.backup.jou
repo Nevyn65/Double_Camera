@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Aug 22 12:17:25 2019
+# Process ID: 40456
+# Current directory: C:/Users/84646/Desktop/Pmode/Double_camera
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16108 C:\Users\84646\Desktop\Pmode\Double_camera\Pmod_30M.xpr
+# Log file: C:/Users/84646/Desktop/Pmode/Double_camera/vivado.log
+# Journal file: C:/Users/84646/Desktop/Pmode/Double_camera\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/84646/Desktop/Pmode/Double_camera/Pmod_30M.xpr
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
